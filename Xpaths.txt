@@ -1,0 +1,64 @@
+Double Click Here Button
+Xpath= //div[contains(@id,"HTML")]//div[1]//button[text()=' Double click Here   ']
+
+Try it Button 
+Xpath = //button[text()='Try it']
+
+Button2 
+xpath= //button[text()='Button2']
+
+Three Buttons 
+//button[text()='Submit']
+//button[text()='Login']
+//button[text()='Register']
+
+HTML Form
+Username 
+Xpath = //form[contains(@name,'form')]//input[1]
+Password
+xpath = //form[contains(@name,'form')]//input[2]
+Login Button 
+xpath= //button[@value='LogIn']
+
+DisplayForTimeAndDissappears
+xpath= //input[@value='ClickAfterTextDissappears']
+
+Upload File 
+driver.findElement(By.id("uploadfile")).sendKeys("C://Users//MAQS//Desktop/Be Brilliant.jfif");
+
+Select Hyundai 
+//select[contains(@id,'multiselect')]
+
+Select doc3
+xpath= //select[@class='combobox']
+
+Check This Button
+xpath= //button[text()='Check this']
+
+Female
+xpath= //input[@value='female']
+
+ClickToGetAlert
+xpath= //input[@value='ClickToGetAlert']
+
+Orange
+xpath= //input[@value='orange']
+
+Blue
+xpath=//input[@value='blue']
+
+Get Prompt
+xpath= //input[@value='GetPrompt']
+
+Get Confirmation
+xpath= //input[@value='GetConfirmation']
+
+PopUp Window Para1
+xpath=//p[text()='A paragraph of text']
+
+Para2 
+xpath= //p[text()='Another paragraph of text']
+
+Locate Using Class
+xpath=//input[@type='text' and @class='classone']
+xpath=//div[@class='widget-content']//input[@type='text' and @class='classone']
